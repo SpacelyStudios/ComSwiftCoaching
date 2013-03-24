@@ -1,0 +1,145 @@
+@charset "UTF-8";
+/* CSS Document */
+body{
+	/*background: #7084A1;
+	/*background-image:url('red_texture.jpeg');*/
+	font-family: sans-serif;
+}
+
+#container{
+		min-height: 600px;
+		width: 100%;
+		box-shadow: 5px 5px 10px #000;
+		margin-top: -1.25%;
+		margin-left: auto;
+		margin-right: auto;
+		background-color:white;
+	}
+
+#header{
+		height: 10%;
+		background-repeat: no-repeat;
+		background-size: 100% 400%;
+		font-weight: bold;
+		font-size: 50px;
+		color: #733E30;
+		padding-top: 0px;
+		padding-left: 0px;
+		background-color: white;
+	}
+#nav{
+		width: 105%;
+		font-family: sans-serif;
+		box-shadow: 0px 0px 20px #000;
+		margin-top: -1.25%;
+		margin-right: -3%;
+		margin-left: -1.25%;	
+	}
+	
+#nav ul{
+		background-color: #733E30;
+		color: white;
+		padding-top: 10px;
+		padding-bottom: 10px;
+		list-style-type: none;
+		letter-spacing: 1px;
+	}
+	
+#nav ul li{
+	display: inline;
+	font-size: 15px;
+	}
+	
+#nav ul li a{
+	text-decoration: none;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 15px;
+	padding-right: 15px;
+	color: white;
+	}
+	
+#nav li a:hover{
+	color: #8C7C77;
+	}
+
+#nav li a:active{
+	color: black;
+}
+	
+#main{
+	height: 65%;
+	font-size: 17px;
+	font-family: sans-serif;
+	text-align: center;
+	width: 100%;
+	float: right;
+	}
+
+#sidebar{
+	height: 65%;
+	width: 25%;
+	font-size: 17px;
+	font-family: sans-serif;
+	text-align: center;
+	float: left;
+}
+
+.headTitle{
+	padding-top: 40px;
+	padding-left: 40px;
+	float: left;
+}
+
+.headPic{
+	float: right;
+}
+
+.testimonial{
+	font-size: 30px;
+	font-style: italic;
+	color: 	
+}
+
+#maintestimonials{
+	width: 80%;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.dream{
+	font-style: italic;
+	color: #8C6E5C;
+	word-spacing: 10px;
+	font-size: 20px;
+	float: left;
+	
+}
+
+#welcome{
+	width: 50%;
+	float: left;
+}
+
+.welcomeimage{
+	float: left;
+	width: 150px;
+	height:200px;
+	padding-right: 10px;
+}
+
+.testimonialimage{
+	width: 100px;
+	height: 200px;
+}
+
+.welcometext{
+	text-align: left;
+	padding-left: 10px;
+}
+
+	
+
+
+	
+	
