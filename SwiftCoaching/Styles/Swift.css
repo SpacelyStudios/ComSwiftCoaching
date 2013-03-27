@@ -7,7 +7,7 @@ Main Brown = #733E30
 Grayer Brown = #8C7C77
 Lighter Brown = #8C6E5C
 Green = #0C9100
-C7000A
+Red = #C7000A
 
 */
 
@@ -117,7 +117,7 @@ html, body
 	float: left;
 }
 
-#welcome
+#content
 {
 	background-color: #C7000A;
 	border: 1px solid #C70009;
@@ -132,7 +132,7 @@ html, body
 	box-shadow: 5px 5px 15px #000;
 }
 
-#welcome p 
+#content p 
 {
 	margin: auto;
 }
