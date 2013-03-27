@@ -2,15 +2,34 @@
 /* CSS Document */
 
 /*
-Colors:
-Main Brown = #733E30
-Grayer Brown = #8C7C77
-Lighter Brown = #8C6E5C
-Green = #0C9100
-Red = #C7000A
+Colors
+Solid Brown: #733E30
+Grayer Brown: #8C7C77
+Lighter Brown: #8C6E5C
+Green: #0C9100
+Red: #CC0000
+Khaki: #CC9966
+Coffee: #97694F
+U of D Maroon: #990000
 
 */
 
+@font-face
+{
+	font-family: Gabriel Serif;
+	src:url(../Fonts/Gabriel%20Serif%20Bold.ttf);
+}
+
+@font-face
+{
+	font-family: Adrogyne;
+	src:url(../Fonts/Androgyne_TB.otf);	
+}
+
+a
+{
+	text-decoration: none;	
+}
 
 html, body
 {
@@ -18,8 +37,9 @@ html, body
 	width: 100%;
 	margin: auto;	
 	font-size: 100%;
-	font-family: 'Century Gothic' sans-serif;
-	background-color: #C7000A;
+	font-family:Adrogyne;
+	background-color: #97694F;
+	z-index: auto;
 }
 
 #container
@@ -28,20 +48,22 @@ html, body
 	width: 80%;
 	margin: auto;
 	background-color: #FFF;
-	border-left: 4px solid #0C9188;
-	border-right: 4px solid #0C9188;
+	border-left: 5px solid #990000;
+	z-index: auto;
 }
 
 #nav
 {
 	height: 6%;
-	background-image: url(gradient.png);
-	background-size: 100% 100%;
 	width: 100%;
 	font-family: sans-serif;
 /*	box-shadow: 0px 0px 20px #000;*/
 	margin: auto;
-	z-index: 1;
+	background-image:url(swiftgradientright.png);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	z-index: auto;
+
 }
 	
 #nav table
@@ -61,7 +83,7 @@ html, body
 	padding-bottom: 10px;
 	padding-left: 15px;
 	padding-right: 15px;
-	color: #FFF;
+		color: #CC0000;
 }
 	
 #nav td a:hover
@@ -76,24 +98,18 @@ html, body
 
 #header
 {
+	height: 10%;
 	width: 100%;
-	height: 25%;
 	font-weight: bold;
 	font-style:italic;
 	margin: auto;
-	text-align:center;
-}
-
-#header p
-{
-	margin: auto;
+	text-align: center;
 }
 
 #header h1
 {
-	color: #733E30;
-	font-size: 600%;
-	margin: auto;
+	color: #97694F;
+	font-size: 650%;
 }
 
 #motto
@@ -117,22 +133,39 @@ html, body
 	float: left;
 }
 
+#sherry
+{
+	width: 400px;
+	height: 500px;
+	float: left;
+	margin: auto;
+	margin-left: 25px;
+	background-color: #000;
+}
+
+#sherry img
+{
+	width: 100%;
+}
+
 #content
 {
-	background-color: #C7000A;
-	border: 1px solid #C70009;
+	background-color: #CC0000;
 	color: #FFF;
 	border-radius: 10px;
-	width: 50%;
+	width: 52%;
 	height: 57%;
 	margin: auto;
 	text-align: center;
 	font-size: 175%;
 	padding: 1%;
 	box-shadow: 5px 5px 15px #000;
+	float: right;
+	margin-right: 25px;
 }
 
 #content p 
 {
+	font-family: 'Century Gothic', Sans Serif;
 	margin: auto;
 }
