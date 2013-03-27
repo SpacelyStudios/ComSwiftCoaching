@@ -1,145 +1,138 @@
 @charset "UTF-8";
 /* CSS Document */
-body{
-	/*background: #7084A1;
-	/*background-image:url('red_texture.jpeg');*/
-	font-family: sans-serif;
+
+/*
+Colors:
+Main Brown = #733E30
+Grayer Brown = #8C7C77
+Lighter Brown = #8C6E5C
+Green = #0C9100
+C7000A
+
+*/
+
+
+html, body
+{
+	height: 100%;
+	width: 100%;
+	margin: auto;	
+	font-size: 100%;
+	font-family: 'Century Gothic' sans-serif;
+	background-color: #C7000A;
 }
 
-#container{
-		min-height: 600px;
-		width: 100%;
-		box-shadow: 5px 5px 10px #000;
-		margin-top: -1.25%;
-		margin-left: auto;
-		margin-right: auto;
-		background-color:white;
-	}
+#container
+{
+	height: 100%;
+	width: 80%;
+	margin: auto;
+	background-color: #FFF;
+	border-left: 4px solid #0C9188;
+	border-right: 4px solid #0C9188;
+}
 
-#header{
-		height: 10%;
-		background-repeat: no-repeat;
-		background-size: 100% 400%;
-		font-weight: bold;
-		font-size: 50px;
-		color: #733E30;
-		padding-top: 0px;
-		padding-left: 0px;
-		background-color: white;
-	}
-#nav{
-		width: 105%;
-		font-family: sans-serif;
-		box-shadow: 0px 0px 20px #000;
-		margin-top: -1.25%;
-		margin-right: -3%;
-		margin-left: -1.25%;	
-	}
+#nav
+{
+	height: 6%;
+	background-image: url(gradient.png);
+	background-size: 100% 100%;
+	width: 100%;
+	font-family: sans-serif;
+/*	box-shadow: 0px 0px 20px #000;*/
+	margin: auto;
+	z-index: 1;
+}
 	
-#nav ul{
-		background-color: #733E30;
-		color: white;
-		padding-top: 10px;
-		padding-bottom: 10px;
-		list-style-type: none;
-		letter-spacing: 1px;
-	}
+#nav table
+{
+	color: #FFF;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	list-style-type: none;
+	letter-spacing: 1px;
+}
 	
-#nav ul li{
-	display: inline;
-	font-size: 15px;
-	}
-	
-#nav ul li a{
+#nav td a
+{
+	font-size: 110%;
 	text-decoration: none;
 	padding-top: 10px;
 	padding-bottom: 10px;
 	padding-left: 15px;
 	padding-right: 15px;
-	color: white;
-	}
+	color: #FFF;
+}
 	
-#nav li a:hover{
-	color: #8C7C77;
-	}
+#nav td a:hover
+{
+	color: #000;
+}
 
-#nav li a:active{
+#nav li a:active
+{
 	color: black;
 }
-	
-#main{
-	height: 65%;
-	font-size: 17px;
-	font-family: sans-serif;
-	text-align: center;
+
+#header
+{
 	width: 100%;
-	float: right;
-	}
+	height: 25%;
+	font-weight: bold;
+	font-style:italic;
+	margin: auto;
+	text-align:center;
+}
 
-#sidebar{
-	height: 65%;
-	width: 25%;
-	font-size: 17px;
-	font-family: sans-serif;
-	text-align: center;
+#header p
+{
+	margin: auto;
+}
+
+#header h1
+{
+	color: #733E30;
+	font-size: 600%;
+	margin: auto;
+}
+
+#motto
+{
 	float: left;
-}
-
-.headTitle{
-	padding-top: 40px;
-	padding-left: 40px;
-	float: left;
-}
-
-.headPic{
-	float: right;
-}
-
-.testimonial{
-	font-size: 30px;
-	font-style: italic;
-	color: 	
-}
-
-#maintestimonials{
-	width: 80%;
-	margin-right: auto;
-	margin-left: auto;
-}
-
-.dream{
+	width: 100%;
+	margin: auto;
 	font-style: italic;
 	color: #8C6E5C;
-	word-spacing: 10px;
-	font-size: 20px;
-	float: left;
-	
+	font-size: 125%;
+	height: 5%;
+	text-align: center;
+	padding-left: 5px;
 }
 
-#welcome{
+#motto table
+{
 	width: 50%;
+	height: 100%;
+	margin: auto;
 	float: left;
 }
 
-.welcomeimage{
-	float: left;
-	width: 150px;
-	height:200px;
-	padding-right: 10px;
+#welcome
+{
+	background-color: #C7000A;
+	border: 1px solid #C70009;
+	color: #FFF;
+	border-radius: 10px;
+	width: 50%;
+	height: 57%;
+	margin: auto;
+	text-align: center;
+	font-size: 175%;
+	padding: 1%;
+	box-shadow: 5px 5px 15px #000;
 }
 
-.testimonialimage{
-	width: 100px;
-	height: 200px;
+#welcome p 
+{
+	margin: auto;
 }
-
-.welcometext{
-	text-align: left;
-	padding-left: 10px;
-}
-
-	
-
-
-	
-	
