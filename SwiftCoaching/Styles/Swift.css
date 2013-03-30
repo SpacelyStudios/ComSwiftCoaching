@@ -84,10 +84,17 @@ html body{
 
 #header h2{
 	font-style: italic;
-	color: #8C6E5C;
+	color: #FF746F;
 	word-spacing: 10px;
 	font-size: 20px;
 	float: left;
+<<<<<<< HEAD
+=======
+	text-align: center;
+	margin-left: 5%;
+	padding-top: -20%;
+	
+>>>>>>> Homepage Development
 }
 
 #motto
@@ -124,8 +131,20 @@ html body{
 	padding-left: 10px;
 }
 
+<<<<<<< HEAD
 #testimonials{
 	width: 80%;
 	margin-right: auto;
 	margin-left: auto;
 }
+=======
+.indextable{
+	width:100%;
+}
+
+	
+
+
+	
+	
+>>>>>>> Homepage Development
