@@ -1,0 +1,63 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/*
+Colors
+Solid Brown: #733E30
+Grayer Brown: #8C7C77
+Lighter Brown: #8C6E5C
+Green: #0C9100
+Red: #CC0000
+Khaki: #CC9966
+Coffee: #97694F
+U of D Maroon: #990000
+*/
+
+html, body
+{
+	padding-top: 50px;
+	margin: auto;
+	font-family: sans-serif;
+	font-size: 100%;
+}
+
+.span12
+{
+	background-color: #97694F;
+	border-radius: 5px;
+	margin: auto;
+	padding-top: 1%;
+	padding-bottom: 1%;
+	padding-left: 1%;
+	padding-right: 1%;
+}
+
+.span12 h1
+{
+	font-size: 700%;
+	margin: auto;
+	margin-top: 10%;
+	color: #FFF;
+	font-style: italic;
+	float: left;
+}
+
+.span12 img
+{
+	height: 10%;
+	width: 20%;
+	margin: auto;
+	float: right;
+	margin-right: 10%;
+}
+
+.span6
+{
+	border-radius: 5px;
+	background-image:url(GlassBackground.png);
+	background-repeat:no-repeat;
+	background-size: 100%, 100%;
+}
+
+
+
