@@ -73,7 +73,7 @@ html body
 	box-shadow: 10px 10px 30px #000;
 }
 
-.span6
+#welcome
 {
 	background-image: url(GlassBrown.png);
 	background-repeat: no-repeat;
@@ -82,17 +82,17 @@ html body
 	margin: auto;
 }
 
-.span6 h1
+#welcome h1
 {
 	font-size: 250%;
 	color: #FFF;
 	text-align: center;
 }
 
-.span6 p
+#welcome p
 {
 	font-size: 150%;
-	text-align: center;
+	text-align: right;
 	color: #FFF;	
 }
 
@@ -145,3 +145,13 @@ html body
 {
 	color: #888;
 }
+
+#ad img
+{
+	height: 90%;
+	width: 90%;
+}
+
+	
+
+
