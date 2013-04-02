@@ -4,13 +4,14 @@
 /*
 Colors
 Solid Brown: #733E30
-Grayer Brown: #8C7C77
+Grayer Brown: #8C7C77 (Background)
 Lighter Brown: #8C6E5C
 Green: #0C9100
 Red: #CC0000
-Khaki: #CC9966
-Coffee: #97694F
+Khaki: #CC9966 (Header Bottom)
+Coffee: #97694F (Header Top)
 U of D Maroon: #990000
+Coral Red: #FE8E8E
 */
 
 @font-face
@@ -37,21 +38,12 @@ html, body
 
 html body
 {
-	background-color: #8C7C77;
+	background-color: #FAF0E6;
 }
 
 .span12
 {
-	background-image: url(TonalDesign.png);
-	background-repeat: no-repeat;
-	background-size: 100% 100%;
-	border-radius: 5px;
 	margin: auto;
-	padding-top: 1%;
-	padding-bottom: 1%;
-	padding-left: 1%;
-	padding-right: 1%;
-	border: solid 2px #000;
 }
 
 .span12 h1
@@ -71,26 +63,30 @@ html body
 	letter-spacing: 5px;
 }
 
-.span12 img
+.span6 img
 {
-	height: 7%;
-	width: 15%;
+	height: 25%;
+	width: 35%;
 	margin: auto;
-	float: right;
+	float: left;
 	margin-right: 10%;
-	border: 3px solid #CC0000;
 	box-shadow: 10px 10px 30px #000;
 }
 
 .span6
 {
-	border-radius: 5px;
-	background-image:url(GlassBackground.png);
-	background-repeat:no-repeat;
-	background-size: 100%, 100%;
+	background-image: url(GlassBrown.png);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
 	padding: 1%;
 	margin: auto;
-	border: solid 2px #000;
+}
+
+.span6 h1
+{
+	font-size: 250%;
+	color: #FFF;
+	text-align: center;
 }
 
 .span6 p
@@ -100,14 +96,8 @@ html body
 	color: #FFF;	
 }
 
-.span6 iframe
-{
-	margin: auto;
-}
-
 #testimonials
 {
-	border-radius: 5px;
 	background-image:url(GlassBackground.png);
 	background-repeat:no-repeat;
 	background-size: 100%, 100%;
@@ -154,10 +144,4 @@ html body
 #footer a:hover
 {
 	color: #888;
-}
-
-.worth{
-	float: left;
-	margin-top: 11%;
-	margin-bottom: -2%;
 }
