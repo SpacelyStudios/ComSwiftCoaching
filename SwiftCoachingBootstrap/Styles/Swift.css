@@ -13,42 +13,73 @@ Coffee: #97694F
 U of D Maroon: #990000
 */
 
+@font-face
+{
+	font-family: Gabriel Serif;
+	src:url(../Fonts/Gabriel%20Serif%20Bold.ttf);
+}
+
+@font-face
+{
+	font-family: Adrogyne;
+	src:url(../Fonts/Androgyne_TB.otf);	
+}
+
 html, body
 {
+	min-height: 100%;
+	min-width: 100%;
 	padding-top: 50px;
 	margin: auto;
 	font-family: sans-serif;
 	font-size: 100%;
 }
 
+html body
+{
+	background-color: #8C7C77;
+}
+
 .span12
 {
-	background-color: #97694F;
+	background-image: url(TonalDesign.png);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
 	border-radius: 5px;
 	margin: auto;
 	padding-top: 1%;
 	padding-bottom: 1%;
 	padding-left: 1%;
 	padding-right: 1%;
+	border: solid 2px #000;
 }
 
 .span12 h1
 {
 	font-size: 700%;
 	margin: auto;
-	margin-top: 10%;
+	margin-top: 2%;
 	color: #FFF;
 	font-style: italic;
+	font-weight: bold;
 	float: left;
+	font-family:'Century Gothic';
+}
+
+.span12 h1 span
+{
+	letter-spacing: 5px;
 }
 
 .span12 img
 {
-	height: 10%;
-	width: 20%;
+	height: 7%;
+	width: 15%;
 	margin: auto;
 	float: right;
 	margin-right: 10%;
+	border: 3px solid #CC0000;
+	box-shadow: 10px 10px 30px #000;
 }
 
 .span6
@@ -57,7 +88,70 @@ html, body
 	background-image:url(GlassBackground.png);
 	background-repeat:no-repeat;
 	background-size: 100%, 100%;
+	padding: 1%;
+	margin: auto;
+	border: solid 2px #000;
 }
 
+.span6 p
+{
+	font-size: 150%;
+	text-align: center;
+	color: #FFF;	
+}
 
+.span6 iframe
+{
+	margin: auto;
+}
 
+#testimonials
+{
+	border-radius: 5px;
+	background-image:url(GlassBackground.png);
+	background-repeat:no-repeat;
+	background-size: 100%, 100%;
+	padding: 1%;
+	border: solid 2px #000;
+	margin: auto;
+	margin-bottom: 2%;
+}
+
+#testimonials table tr
+{
+	border-bottom: dashed 1px #000;
+}
+
+#testimonials table td
+{
+	padding: 1%;
+	color: #FFF;
+	font-size: 125%;
+}
+
+#testimonials table #doug
+{
+	border: none;
+}
+
+#footer
+{
+	background-color: #97694F;
+	width: 100%;
+	text-align: center;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border-top: double 4px #000;
+	font-size: 100%;
+}
+
+#footer a
+{
+	color: #FFF;
+	text-decoration: none;
+}
+
+#footer a:hover
+{
+	color: #888;
+}
